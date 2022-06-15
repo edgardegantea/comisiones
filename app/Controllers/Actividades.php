@@ -20,7 +20,7 @@ class Actividades extends BaseController
 
     public function create(){
         return view('layout/header')
-            .view('actividad/crear')
+            .view('actividad/create')
             .view('layout/footer');
     }
 
